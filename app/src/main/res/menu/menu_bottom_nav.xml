@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/westernFragment"
+        android:title="Western Con"
+        android:icon="@drawable/www"
+        android:iconTint="@color/black" />
+
+    <item
+        android:id="@id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/easternFragment"
+        android:title="Eastern Con"
+        android:icon="@drawable/nbaeastern"
+        android:iconTint="@color/black"/>
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_me"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/easternFragment"
+        android:name="com.example.nbaapk.fragment.EasternFragment"
+        android:label="EasternFragment" >
+        <action
+            android:id="@+id/action_easternFragment2_to_westernFragment2"
+            app:destination="@id/westernFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.nbaapk.tablayout.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_easternFragment2"
+            app:destination="@id/easternFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/westernFragment"
+        android:name="com.example.nbaapk.fragment.WesternFragment"
+        android:label="WesternFragment" />
+</navigation>
